@@ -21,18 +21,18 @@ training_data_reference:
   name: training-data-reference_name
   connection:
     endpoint_url: s3-api.us-geo.objectstorage.softlayer.net
-    access_key_id: '' #Insert your access key id here.
-    secret_access_key: '' #Insert your secret access key id here.
+    access_key_id: '977bc6c1d71543b1ada6eec811318209' #Insert your access key id here.
+    secret_access_key: 'f0719262521af2053b740272acd2430afd2a55b25d892e6e' #Insert your secret access key id here.
   source:
-    bucket: training-audioset-classify
+    bucket: 55-bark-buddy-training-55
   type: s3
 training_results_reference:
 #Target connection object credentials
   name: training-results-reference_name
   connection:
     endpoint_url: s3-api.us-geo.objectstorage.softlayer.net
-    access_key_id: '' #Insert your access key id here.
-    secret_access_key: '' #Insert your secret access key id here.
+    access_key_id: '977bc6c1d71543b1ada6eec811318209' #Insert your access key id here.
+    secret_access_key: 'f0719262521af2053b740272acd2430afd2a55b25d892e6e' #Insert your secret access key id here.
   target:
-    bucket: results-audioset-classify
+    bucket: 55-bark-buddy-results-55
   type: s3
